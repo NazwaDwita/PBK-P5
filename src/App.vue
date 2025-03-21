@@ -72,7 +72,6 @@ export default {
 </template>
 
 <style>
-/* Tambahkan styling opsional jika diperlukan */
 h2 {
   color: #ffffff;
   margin-top: 20px;
