@@ -7,12 +7,12 @@ export default {
     const buah = ref(['Durian', 'PIsang', 'Nangka']);
 
     // COMPUTED PROPERTIES
-    const firstName = ref('John');
-    const lastName = ref('Doe');
+    const firstName = ref('Nazwa');
+    const lastName = ref('Dwita');
     const fullName = computed(() => `${firstName.value} ${lastName.value}`);
 
     // WATCHERS
-    const name = ref('John');
+    const name = ref('Nazwa');
     watch(name, (newValue, oldValue) => {
       console.log(`Nama berubah dari ${oldValue} ke ${newValue}`);
     });
